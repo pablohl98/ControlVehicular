@@ -1,0 +1,110 @@
+* {
+	box-sizing:border-box;
+   }
+
+body {
+	/*background-image: url("imagenes/fondohtml.jpg");*/	
+	background-color: #888a89;
+}
+header{
+	text-align: center;
+	color: white;
+}
+label{
+	font-size: large;
+}
+#registro{
+  margin-left: auto;
+  margin-right: auto;
+  width: 703px;
+  height: 650px;
+  border: 4.5px solid white;
+  border-radius: 15px;
+  box-sizing: border-box;
+  background-color: inherit;
+}
+#logotipo img{
+	height: 200px;
+	width: 600px;
+	margin-bottom: -45px;
+}
+h3{
+	color: white;
+}
+#header-registro{
+	text-align: center;
+	margin-top: -50px;
+	margin-bottom: -50px;
+	padding-bottom: 0px;
+}
+#textoregistro{
+	font-size: 50px;
+}
+#nombreL{
+	margin-left: 10px;
+	margin-right: 140px;
+	color: white;
+}
+#nombreI,#apellidoPI,#apellidoMI,#comandancias,#correoI,#celuI{
+	width: 400px;
+	height: 40px;
+	font-size: 30px;
+}
+#nombreL,#apellidoPL,#apellidoML,#comandancia,#correoL,#celuL{
+ font-size: 30px;
+}
+#nombreL,#nombreI{
+	margin-bottom: 35px;
+	margin-top: 35px;
+}
+#apellidoPL{
+	margin-left: 10px;
+	margin-right: 36px;
+	color: white;	
+}
+#apellidoML{
+	margin-left: 10px;
+	margin-right: 26px;
+	color: white;	
+}
+#apellidoPL,#apellidoPI{
+	margin-bottom: 35px;
+}
+#apellidoML,#apellidoMI{
+	margin-bottom: 35px;
+}
+#comandancia, #comandancias{
+	margin-bottom: 35px;
+}
+#comandancia{
+	color: white;
+	margin-left: 10px;
+	margin-right: 74px;
+}
+
+#correoL{
+	color: white;
+	margin-left: 10px;
+	margin-right: 10px;	
+}
+#correoL, #correoI{
+	margin-bottom: 35px;
+}
+#celuL{
+	color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#celuL, #celuI{
+	margin-bottom: 35px;
+}
+#enviar{
+	margin-left: 170px;
+}
+#boton-enviar{
+	font-size: 35px;
+	margin-left:30px;
+}
+#boton-regresa{
+	font-size: 35px;
+}

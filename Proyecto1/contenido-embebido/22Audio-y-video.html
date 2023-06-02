@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Audio y Video</title>
+	<style>
+		body{
+			background-color: #BABABA	;
+		}
+	</style>
+</head>
+<body>
+	<header>
+            <h2>
+                Audio y Video
+            </h2>
+     </header>
+        <p>
+        	<b>audio</b> --> funciona igual que las imagenes, hay que darle una ruta y te lo carga    <br> necesita el atributo <b>controls</b> <br>
+        	<b>video</b> --> funciona igual que la musica, hay que darle una ruta y te lo carga <br> 
+        	puede tener el atributo <b>loop</b> para que se repita y <b>poster</b> para ponerle una miniatura <br>
+        	----------------------------------------------------------------------------------------------------------- <br>
+        </p>	
+        <h3>
+                Ejemplo de Audio
+        </h3>
+        <audio src="/Proyecto1/contenido-embebido/assets/audio/delantero-estrella.mp3" autoplay muted controls></audio> <hr>
+        <h3>
+                Ejemplo de Video
+        </h3>
+        <video src="/Proyecto1/contenido-embebido/assets/video/titanes.mp4" 								controls muted loop poster="/Proyecto1/contenido-embebido/assets/images/houndoom2.jpg"></video> <hr>
+        <h3>
+                Ejemplo de Iframe; no recomendado
+        </h3>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/IVzyErnSnFI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

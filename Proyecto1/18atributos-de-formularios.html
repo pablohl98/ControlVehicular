@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Atributos de los formularios</title>
+	<style>
+		body{
+			background-color: #BABABA	;
+		}
+	</style>
+</head>
+<body>
+	<header>
+            <h2>
+                Atributos de los formularios
+            </h2>
+     </header>
+        <p>
+        	<b>autofocus</b> --> enfocar automaticamente un campo de texto   <br> 
+        	<b>placeholder</b>--> da una lista de lo que el usuario tiene que introducir <br>
+        	<b>required</b> --> hace que un campo sea obligatorio <br>
+        	<b>readonly</b> --> hace que un campo sea solo de lectura <br>
+        	<b>disabled</b> --> desactiva el campo <br>
+        	<b>min - max</b> --> establece minimos y maximos para un campo numérico <br>
+        	<b>minlenght - maxlenght</b> --> establece el minimo y maximo de carácteres en un campo de texto <br>
+        	<b>selected</b> --> el equivalente a los checked en los radiobutton <br>   	
+        	----------------------------------------------------------------------------------------------------------- <br>
+        </p>	
+        <h3>
+                Ejemplos de formularios con atributos
+        </h3>
+        <form>
+        	    <h4><legend>Autofocus; listo pa escribir</legend></h4>
+                <fieldset>
+                <h4><label for="nombre" >nombre de la persona</label>
+                <input type="text" id="nombre"  autofocus minlength="3" maxlength="15"> </h4>  
+                <h4> <input type="submit" name="" id=""></h4>          
+                </fieldset> <hr>
+        		<h4><legend>Placeholder; una pista para saber como rellenar</legend></h4>
+                <fieldset>
+                <h4><label for="name" >Nombre</label>
+                <input type="text" id="name" > </h4>
+                <h4><label for="surname">Apellidos</label>
+                <input type="text" id="surname" placeholder="introduce tus apellidos"></h4>
+                <input type="submit"> 
+                </fieldset> <hr> 
+                <h4><legend>Required; Obligatorio, Sí o Sí</legend></h4>
+                <fieldset>
+                <h4><label for="name" >Nombre</label>
+                <input type="text" id="name" placeholder="introduce tu nombre" required> </h4>  
+                <h4><label for="surname">Apellidos</label>
+                <input type="text" id="surname" placeholder="introduce tus apellidos" required></h4>  
+                <input type="submit" name="" id="">        
+                </fieldset> <hr>
+                <h4><legend>Read only; si manda el valor</legend></h4>
+                <fieldset>
+                <h4><label for="name" >Nombre</label>
+                <input type="text" id="name"  placeholder="campo de solo lectura"readonly> </h4>  
+                <h4><label for="surname">Apellidos</label>
+                <input type="text" id="surname" placeholder="campo de solo lectura" readonly></h4>
+                <input type="submit" name="" id="">           
+                </fieldset> <hr>
+                <h4><legend>Disabled; no manda el valor</legend></h4>
+                <fieldset>
+                <h4><label for="name" >Nombre</label>
+                <input type="text" id="name"  disabled value="campo desactivado"> </h4>  
+                <h4><label for="surname">Apellidos</label>
+                <input type="text" id="surname" disabled value="campo desactivado"></h4>  
+                <input type="submit" name="" id="">         
+                </fieldset> <hr>
+                <h4><legend>Min - Max para numeros (14-99)</legend></h4>
+                <fieldset>
+                <h4><label for="edad" >Edad de la persona</label>
+                <input type="number" id="edad" min="14" max="99"> </h4>  
+                <h4> <input type="submit" name="" id=""></h4>          
+                </fieldset> <hr>
+                <h4><legend>Minlenght - Maxlenght para letras (3-15)</legend></h4>
+                <fieldset>
+                <h4><label for="nombre" >nombre de la persona</label>
+                <input type="text" id="nombre"  required minlength="3" maxlength="15"> </h4>  
+                <h4> <input type="submit" name="" id=""></h4>          
+                </fieldset> <hr>
+                 <h4><legend>Selected; aparecer una opcion seleccionada (Canadá)</legend></h4>
+                <fieldset>
+                <h4><label for="nombre" >pais</label>
+                <select name="pais">
+                <option value="México">México</option>
+                <option value="Estados Unidos">Estados unidos</option>
+                <option value="El Salvador">El Salvador</option>
+                <option value="Canadá" selected>Canadá</option>
+                </select> 
+                 </h4>  
+                <h4> <input type="submit" name="" id=""></h4>          
+                </fieldset> <hr>
+        </form>
+</body>
+</html>

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+            <meta content="width=device-width, initial-scale=1.0" name="viewport">
+                <title>
+                    Tablas
+                </title>
+                <style>
+                	td {
+                		background-color: steelblue;
+                	}
+                	col:nth-child(1){
+                		background-color: #FF0000 	;
+                	}
+                	col:nth-child(2){
+                		background-color: #00FFFF 	;
+                	}
+                </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                Inicio,<a href="/Proyecto1/web-demo/paginas/contacto.html">Contacto</a> , Mapas, Direccion
+            </nav>
+            <h2>
+                Tablas; Tipos y Características
+            </h2>
+        </header>
+        <p>
+            Las tablas en html sirven para mostrar contenido tabulado. <br> <br>
+            La estructura básica de una tabla se compone de: <br>
+            <b>table</b> --> etiqueta que encierra y delimita la tabla <br>
+            <b>tr</b> --> table row, la etiqueta que hace la fila de la tabla <br>
+            <b>td</b> --> table data, laetiqueta que hace la fila de la tabla <br>
+            Hack life: el número de celdas dentro de un tr establecerá el número de columnas de la tablas <br>
+            <b>Los títulos de las tablas</b> se establecen con la etiqueta caption, es una etiqueta opcional, y según la especificacion <br>esa etiqueta se coloca justo despues de la etiqueta table. <br>	
+            <b>Las cabeceras</b> de las tablas se establecen con la etiqueta thead. <br>
+            dentro tendremos una etiqueta rt normal, pero en el caso de las celdas las estableceremos <br>con la etiqueta th en lugar de td. <br>
+            <b>El contenido de la tabla</b> debe ir dentro de una etiqueta tbody para representar el cuerpo de la tabla <br>
+            <b>Tfoot:</b> de manera totalmente opcional, como un detallazo extra podemos ponerle un pie de página a la tabla <br>sirve como una suma de cantidades o total. 
+
+        </p>
+        <h4>
+        	Tabla de ejemplo
+        </h4>
+        <table>
+        	<caption>HORARIO DE CLASES</caption>
+        	<th>
+        		<tr>
+        			<th></th>
+        			<th>L</th>
+        			<th>M</th>
+        			<th>X</th>
+        			<th>J</th>
+        			<th>V</th>
+        		</tr>
+        	</th>
+        	<tbody>
+        	<tr>
+        		<td>8:30 - 9:30</td>
+        		<td>Matemáticas</td>
+        		<td>Matemáticas</td>
+        		<td>Sociales</td>
+        		<td>Matemáticas</td>
+        		<td>Matemáticas</td>
+        	</tr>
+        	<tr>
+        		<td>9:30 - 10:25</td>
+        		<td>Lengua</td>
+        		<td>Lengua</td>
+        		<td>Matemáticas</td>
+        		<td>Ciencias</td>
+        		<td>Lengua</td>
+        	</tr>
+        	<tr>
+        		<td>10:25 - 11:20</td>
+        		<td>Educacion Física</td>
+        		<td>Ciencias</td>
+        		<td>Lengua</td>
+        		<td>Lengua</td>
+        		<td>Educación Física</td>
+        	</tr>
+        	<tr>
+        		<td>11:20 - 11:45</td>
+                <td>Recreo</td>
+        	</tr>
+        	<tr>
+        		<td>11:45 - 12:40</td>
+        		<td>Ingés</td>
+        		<td>Sociales</td>
+        		<td>Inglés</td>
+        		<td>Tutoria</td>
+        		<td>Inglés</td>
+        	</tr>
+        	<tr>
+        		<td>12:40 - 13:35</td>
+        		<td>Música</td>
+        		<td>Educación Física</td>
+        		<td>Plástica</td>
+        		<td>Religión</td>
+        		<td>Música</td>
+        	</tr>
+        	<tr>
+        		<td>13:35 - 14:30</td>
+        		<td>Tecnología</td>
+        		<td>Francés</td>
+        		<td>Tecnología</td>
+        		<td>Francés</td>
+        		<td>Tecnología</td>
+        	</tr>
+        	</tbody>
+        	<tfoot>
+        		<tr>
+                   <td>Total de asignaturas</td>
+                   <td>12</td>      			
+        		</tr>
+        	</tfoot>
+        </table>
+		<p>
+            Para hacer que las celdas ocupen mas de una fila o columna tenemos dos atributos: <br>
+            <b>Rowspan:</b> sirve para que una celda ocupe mas de una fila, el valor por defecto es 1 <br>
+            <b>Colspan:</b> sirve para que una celda ocupe mas de una columna, el valor por defecto es 1
+        </p>
+        <h4>
+        	Tabla Chida ya con los Colspans y Rowspans
+        </h4>
+        <table>
+        	<caption>HORARIO DE CLASES</caption>
+        	<th>
+        		<tr>
+        			<th></th>
+        			<th>L</th>
+        			<th>M</th>
+        			<th>X</th>
+        			<th>J</th>
+        			<th>V</th>
+        		</tr>
+        	</th>
+        	<tbody>
+        	<tr>
+        		<td>8:30 - 9:30</td>
+        		<td>Matemáticas</td>
+        		<td>Matemáticas</td>
+        		<td>Sociales</td>
+        		<td>Matemáticas</td>
+        		<td>Matemáticas</td>
+        	</tr>
+        	<tr>
+        		<td>9:30 - 10:25</td>
+        		<td>Lengua</td>
+        		<td>Lengua</td>
+        		<td>Matemáticas</td>
+        		<td>Ciencias</td>
+        		<td>Lengua</td>
+        	</tr>
+        	<tr>
+        		<td>10:25 - 11:20</td>
+        		<td>Educacion Física</td>
+        		<td>Ciencias</td>
+        		<td>Lengua</td>
+        		<td>Lengua</td>
+        		<td>Educación Física</td>
+        	</tr>
+        	<tr>
+        		<td>11:20 - 11:45</td>
+                <td colspan="5">Recreo</td>
+        	</tr>
+        	<tr>
+        		<td>11:45 - 12:40</td>
+        		<td>Ingés</td>
+        		<td>Sociales</td>
+        		<td>Inglés</td>
+        		<td>Tutoria</td>
+        		<td>Inglés</td>
+        	</tr>
+        	<tr>
+        		<td>12:40 - 13:35</td>
+        		<td rowspan="2">Tecnología</td>
+        		<td>Educación Física</td>
+        		<td>Plástica</td>
+        		<td>Religión</td>
+        		<td rowspan="2">Tecnología</td>
+        	</tr>
+        	<tr>
+        		<td>13:35 - 14:30</td>
+        		<td>Francés</td>
+        		<td>Tecnología</td>
+        		<td>Francés</td>
+        	</tr>
+        	</tbody>
+        	<tfoot>
+        		<tr>
+                   <td colspan="5">Total de asignaturas</td>
+                   <td>12</td>      			
+        		</tr>
+        	</tfoot>
+        </table>
+        <p>
+            Cuando necesitemos seleccionar una columna, tenemos la etiqueta <b>colgroup</b>, que nos permite seleccionar <br>una columna en concreto.  Dentro pondremos tantas etiquetas col como columnas tengamos, cada etiqueta <br>col equivaldrá a una columna siguiendo el mismo orden que tienen en la tabla <br>
+            Si necesitamos que una etiqueta col agrupe mas de una columna tenemos el atributo <b>span</b>, que funciona <br>exactamente igual que <b>rowspan</b> y que el atributo <b>colspan</b>. 
+            
+        </p>
+        <h4>
+        	Tabla Con colgroup
+        </h4>
+        <table>
+        	<caption>HORARIO DE CLASES</caption>
+        	<colgroup>
+        		<col span="5">
+        		<col >
+        	</colgroup>
+        	<th>
+        		<tr>
+        			<th></th>
+        			<th>L</th>
+        			<th>M</th>
+        			<th>X</th>
+        			<th>J</th>
+        			<th>V</th>
+        		</tr>
+        	</th>
+        	<tbody>
+        	<tr>
+        		<td>8:30 - 9:30</td>
+        		<td>Matemáticas</td>
+        		<td>Matemáticas</td>
+        		<td>Sociales</td>
+        		<td>Matemáticas</td>
+        		<td>Matemáticas</td>
+        	</tr>
+        	<tr>
+        		<td>9:30 - 10:25</td>
+        		<td>Lengua</td>
+        		<td>Lengua</td>
+        		<td>Matemáticas</td>
+        		<td>Ciencias</td>
+        		<td>Lengua</td>
+        	</tr>
+        	<tr>
+        		<td>10:25 - 11:20</td>
+        		<td>Educacion Física</td>
+        		<td>Ciencias</td>
+        		<td>Lengua</td>
+        		<td>Lengua</td>
+        		<td>Educación Física</td>
+        	</tr>
+        	<tr>
+        		<td>11:20 - 11:45</td>
+                <td colspan="5">Recreo</td>
+        	</tr>
+        	<tr>
+        		<td>11:45 - 12:40</td>
+        		<td>Ingés</td>
+        		<td>Sociales</td>
+        		<td>Inglés</td>
+        		<td>Tutoria</td>
+        		<td>Inglés</td>
+        	</tr>
+        	<tr>
+        		<td>12:40 - 13:35</td>
+        		<td rowspan="2">Tecnología</td>
+        		<td>Educación Física</td>
+        		<td>Plástica</td>
+        		<td>Religión</td>
+        		<td rowspan="2">Tecnología</td>
+        	</tr>
+        	<tr>
+        		<td>13:35 - 14:30</td>
+        		<td>Francés</td>
+        		<td>Tecnología</td>
+        		<td>Francés</td>
+        	</tr>
+        	</tbody>
+        	<tfoot>
+        		<tr>
+                   <td colspan="5">Total de asignaturas</td>
+                   <td>12</td>      			
+        		</tr>
+        	</tfoot>
+        </table>
+    </body>
+</html>

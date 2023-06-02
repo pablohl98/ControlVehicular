@@ -1,0 +1,76 @@
+* {
+	box-sizing:border-box;
+   }
+
+body {
+	/*background-image: url("imagenes/fondohtml.jpg");*/	
+	background-color: #888a89;
+}
+header,h3{
+	text-align: center;
+	color: white;
+}
+#logotipo img{
+	height: 200px;
+	width: 600px;
+	margin-bottom: -45px;
+}
+#alta-patrulla{
+  margin-left: auto;
+  margin-right: auto;
+  width: 703px;
+  height: 412px;
+  border: 4.5px solid white;
+  border-radius: 15px;
+  box-sizing: border-box;
+  background-color: inherit;
+}
+#header-alta{
+	text-align: center;
+	margin-top: -50px;
+	margin-bottom: -50px;
+	padding-bottom: 0px;
+}
+#textoalta{
+	font-size: 50px;
+}
+#nombreL,#nombreI{
+	margin-top: 35px;
+}
+#nombreL{
+	margin-left: 10px;
+	margin-right: 85px;
+	color: white;
+}
+#marcaL{
+	color: white;
+	margin-left: 10px;
+	margin-right: 53px;
+}
+#modeloL{
+	color: white;
+	margin-left: 10px;
+	margin-right: 36px;
+}
+#nombreI,#modeloI,#marcaI{
+	width: 400px;
+	height: 40px;
+	font-size: 30px;
+ 
+}
+#nombreL,#modeloL,#marcaL{
+ font-size: 30px;
+}
+#nombreL,#nombreI,#marcaL,#marcaI,#modeloL,#modeloI{
+	margin-bottom: 35px;
+}
+#enviar{
+	margin-left: 170px;
+}
+#boton-enviar{
+	font-size: 35px;
+	margin-left:30px;
+}
+#boton-regresa{
+	font-size: 35px;
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tipos de Inputs</title>
+	<style>
+		body{
+			background-color: #BABABA	;
+		}
+	</style>
+</head>
+<body>
+	<header>
+            <h2>
+                Tipos de Inputs
+            </h2>
+     </header>
+        <p>
+        	Input Type: <br>
+        	<b>Button</b>--> se comporta igual que un botón &lt;button&gt; no envia formularios <br>
+        	<b>color:</b>--> se usa para especificar un color <br>
+        	<b>date:</b>--> se usa para introducir una fecha <br>
+        	<b>datetime</b>--> mas viejo que la rueda; está obsoleto <br>
+        	<b>datetime-local</b>--> Fecha y hora, se fresea con el firefox mejor no usarse<br>
+        	<b>email</b>--> se utiliza para introducir un Email  <br>
+        	<b>hidden</b>--> campo oculto, puede contener un valor pero no se va a ver  <br>
+        	<b>month</b>--> se utiliza para introducir un mes <br>
+        	<b>number</b>--> se utiliza para introducir valores numéricos  <br>
+        	<b>password</b>--> se utiliza para introducir contraseñas  <br>
+        	<b>range</b>--> se utiliza para establecer un rango  <br>
+        	<b>reset</b>--> te resetea el formulario, y la vida misma  <br>
+        	<b>search</b>--> se utiliza para las barras de búsqueda  <br>
+        	<b>submit</b>--> se utiliza para enviar el formulario al mas allá  <br>
+        	<b>tel</b>--> se utiliza para introducir numeros telefonicos  <br>
+        	<b>text</b>--> valor por defecto que ya trai el input  <br>
+        	<b>time</b>--> se utiliza para introducir una hora <br>
+        	<b>url</b>--> se utiliza para introducir URLS tambien conocidos como links o zeldas papu de papus  <br>
+        	<b>week</b>--> se utiliza para introducir el numero de semana del año  <br>
+        	-------------------------------------------------------------------------------- <br>
+        	<b>radio</b>--> radio buton en java, permite elegir solo una opcion de entre varias  <br>
+        	<b>checkbox</b>--> checkbox permite elegir varias opciones de entre varias, contrario a radio <br>
+        	<b>select</b>--> crea una lista de opciones donde podemos elegir una o varias opciones   <br>    	
+        	cada opción irá dentro de una etiqueta &lt;option&gt; &lt;/option&gt; <br>
+        	si tenemos muchas opciones podemos ordenarlas por categorias a través de <br>la etiqueta &lt;optgroup&gt; con el atributo label para nombrar la categoria <br> 
+        	<b>list</b> hay que darle una lista con el atributo list y luego datalist con id igual al atributo list <br>
+            -------------------------------------------------------------------------------- <br>
+            <b>fieldset</b>--> se utiliza para agrupar elementos dentro de un formulario  <br>
+            <b>legend</b>--> representa una etiqueta para el contenido del fieldset <br>
+            <b>file</b>--> este input se utiliza para cargar archivos y enviarlos desde un formulario <br>
+            <b>meter</b>--> representa un valor dentro de un rango conocido <br>
+            <b>progress</b>--> representa el progreso de una tarea <br>
+            <b>textarea</b>--> este es el text area clasico clasico clasico de java pero clasico
+        </p>	
+        <h3>
+                Inputs Basicos, Normalillos
+        </h3>
+        <form>
+        	<h4>tipo button <input type="button" value="input tipo button"> no manda formularios</h4>
+        	<h4>tipo datetime-local no usar <input type="datetime-local"></h4>
+        	<h4>tipo date <input type="date"></h4>
+        	<h4>tipo time <input type="time"> </h4>
+        	<h4>tipo month <input type="month"> </h4>
+        	<h4>tipo week <input type="week"></h4>
+        	<hr>
+        	<h4>tipo search <input type="search"></h4>
+        	<h4>tipo telefono <input type="tel"></h4>
+        	<h4>tipo email <input type="email"></h4>
+        	<h4>tipo password <input type="password"></h4>
+        	<h4>tipo url <input type="url"></h4>
+        	<hr>
+        	<h4>tipo color <input type="color"></h4>
+        	<h4>tipo number <input type="number"></h4>
+        	<h4>tipo range <input type="range" step="2" min="0" max="80"> Acepta minimos y maximos y puede dar saltos de 2 en 2, de 10 en 10 etc</h4>
+        	<h4>tipo reset <input type="reset"> borra los datos pero sin recargar</h4> 
+        	<h4>tipo text <input type="text"> hace juego con hidden para mostrar u ocultar cosas</h4>
+        	<hr>
+        </form>
+        <h3>
+             Inputs Seleccionables
+        </h3>
+        <form>
+        	<h4>Tipo radio; radio y checkbox pueden tener atributo value="" que es para mandar el valor seleccionado al servidor</h4>
+        	<h4>Masculino <input type="radio" name="genero" value="masculino"></h4>
+        	<h4>Femenino <input type="radio" name="genero" value="femenino"></h4>
+        	<h4>Prefiero no decir <input type="radio" name="genero" value="desconocido"></h4>
+        	<hr>
+        	<h4>Tipo checkbox; radio y checkbox pueden tener el atributo checked que deja ponerlo palomeado desde el inicio</h4>
+        	<h4>Tarea de Algebra <input type="checkbox" name="listado"></h4>
+        	<h4>Tarea de Cálculo IV <input type="checkbox" name="listado" checked></h4>
+        	<h4>Tarea de Principios Eléctricos <input type="checkbox" name="listado"></h4>
+        	<hr>
+        	<h4>Tipo Select; si queremos seleccionar varios usamos el atributo multiple</h4>
+        	<h5>Seleccione los idiomas que domina</h5>   	
+        		<select name="lenguajes" >
+        				<option value="Español">Español</option>
+        				<option value="Francés">Francés</option>
+        				<option value="Italiano">Italiano</option>
+        				<option value="Arámeo">Arámeo</option>
+        		</select> 
+        	<h4>Tipo Select ejemplo 2; optgroup para agrupar, label para nombrar la agrupación</h4>
+        		<h5>Seleccione una mascota que haya tenido a lo largo de su existencia</h5>
+        		<select name="mascotas">
+        			<optgroup label="Comunes o relativamente comunes">
+        			<option value="Hamster">Hamster</option>	
+        			<option value="Perro">Perro</option>
+        			<option value="Conejo">Conejo</option>
+        			<option value="Gato">Gato</option>
+        			</optgroup>
+        			<optgroup label="Etsoticos">
+        			<option value="Águila Calva">Águila Calva</option>
+        			<option value="Loro">Loro</option>
+        			<option value="Iguana">Iguana</option>
+        			<option value="Camaleon">Camaleon</option>
+        			</optgroup>
+        			<optgroup label="Peligro de muerte">
+        			<option value="Tarantula">Tarantula</option>
+					<option value="Víbora de cascabel">Víbora de cascabel</option>
+					<option value="Escorpión">Escorpión</option>
+					</optgroup>
+        		</select> <hr>
+        		<h4>Tipo Datalist; Texto predictivo con busqueda para muchas opciones</h4>
+        		<h5>Seleccione un equipo de futbol ya sea de su preferencia</h5>
+        		<input type="list" list="equipos-de-futbol">
+        		<datalist id="equipos-de-futbol">
+        			<option value="Coras de Tepic">Segunda division Mexicana</option>
+        			<option value="Rotherham United">Tercera división Inglaterra</option>
+        			<option value="Club Almirante Brown">Segunda division Argentina</option>
+        			<option value="Club Deportivo Dragón">Segunda división El Salvador</option>
+        			<option value="Toulouse">Segunda division Francia</option>
+        			<option value="Deportivo Aragón">Tercera división España</option>       			
+        		</datalist> <hr>
+                <h4>Combazo Legend + Fieldset; separador natural + leyenda de seccion</h4>
+                <legend>Datos personales</legend>
+                <fieldset>
+                <h4><label for="name">Nombre</label>
+                <input type="text" id="name"> </h4>
+                <h4><label for="surname">Apellidos</label>
+                <input type="text" id="surname"></h4>
+                </fieldset>
+                <legend>Ejemplo input file sin css y sin javascript</legend>
+                <fieldset><h4><input type="file"></h4>  </fieldset>
+                <legend><h4>Ejemplo Meter</h4></legend>
+                <fieldset>
+                    <label for="fuel">Combustible del tractor: </label>
+                    <meter id="fuel" min="0" max="100" value="25" low="50">                        
+                    </meter>                   
+                </fieldset>
+                <legend><h4>Ejemplo Progress</h4></legend>
+                <fieldset>
+                    <label for="task">Tarea1 </label>
+                    <progress id="task" value="60" max="100" value="40">                         
+                    </progress>
+                </fieldset>
+                <legend><h4>Ejemplo TextArea</h4></legend>
+                <fieldset>
+                    <textarea name="" id="message"  cols="30" rows="15">
+                        
+                    </textarea>
+                </fieldset>
+        </form>
+</body>
+</html>

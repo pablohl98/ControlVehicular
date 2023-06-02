@@ -1,0 +1,35 @@
+* {
+	box-sizing:border-box;
+   }
+   body {
+	/*background-image: url("imagenes/fondohtml.jpg");*/	
+	background-color: #888a89;
+}
+header{
+	text-align: center;
+	color: white;
+}
+h1{
+	color: white;
+	margin-top: 50px;
+}
+#logotipo{
+	text-align: center;
+}
+
+#logotipo img{
+	height: 200px;
+	width: 600px;
+	margin-bottom: -45px;
+}
+h2{
+	color: white;
+}
+#iniciar-sesion{
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #6565;
+	color: white;
+	font-size: 30px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Reservación para Hotel</title>
+	<style>
+		body{
+			background-color: #BABABA	;
+		}
+	</style>	
+</head>
+<body>
+<header>
+        <h2>
+                Ejercicio 2 Formulario de reservación para hoteles
+        </h2> <hr>
+	</header>
+	<form action="enviar.html" method="GET">
+			<fieldset>
+            <legend>Datos Personales</legend>
+            <h4><label for="nombre" >Nombre(es)</label>
+            <input type="text" required id="nombre" placeholder="ingrese su(s) nombre(es)" autofocus minlength = "3" maxlength="15"> </h4>
+            <h4><label for="apellido" >Apellidos</label>
+            <input type="text" required id="apellido" placeholder="ingrese sus Apellidos"  minlength="6" maxlength="50"> </h4> 
+             <h4><label for="tel" >Telefono</label>
+            <input type="tel" required id="tel" placeholder="ingrese su Telefono" minlength="6" maxlength="50"> </h4>
+            <h4><label for="email" >Email</label>
+            <input type="email" required id="email" placeholder="ingrese su E-Mail" minlength="6" maxlength="50"> </h4>
+           </fieldset>
+ 			<fieldset>	           
+             <legend>Datos de reservación</legend>          
+            <h4><label for="diallegada" >Dia de Llegada</label>
+            <input type="date" required id="diallegada" > </h4>
+            <h4><label for="diapartida" >Dia de Partida</label>
+            <input type="date" required id="diapartida" > </h4>
+            <h4> <label for="adultos">Número de Adultos</label>
+            <input  id="adultos" type="number" min="1" max="20" required></h4>
+            <h4> <label for="niños">Número de Niños</label>
+            <input  id="niños" type="number" min="0" max="20" required></h4>
+            <h4> <label for="sucursal">Indique la sucursal de su preferencia</label>
+            <select id="sucursal" >
+        				<option value="Chihuahua Centro">Chihuahua Centro</option>
+        				<option value="Chihuahua Norte">Chihuahua Norte</option>
+        				<option value="Chihuahua Sur">Chihuahua Sur</option>
+        				<option value="Chihuahua Poniente" selected>Chihuahua Poniente</option>
+        		</select> </h4>
+           </fieldset>
+           <fieldset> 
+           <legend>Dudas, Comentarios, Quejas o Sugerencias</legend>
+           	<textarea name="comentarios" id="comentarios" cols="50" rows="10" placeholder="Comentenos si tiene alguna duda, su retroalimentacion es importante para nosotros"></textarea>
+           </fieldset> 
+           
+           <h5>El botón enviar no funciona porque no está conectado con la base de datos</h5>	
+           <input type="reset"> <input type="submit">
+           <hr>
+	</form>
+	<footer>
+    	<h4>Creado por Pablo Holguín López el 8 de Febrero del 2022</h4>
+    </footer> 
+</body>
+</html>

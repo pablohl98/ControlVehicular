@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Device Pixel Ratio</title>
+	<style>
+      body{
+         background-color: #BABABA  ;
+      }
+		img{
+			max-width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<header>
+            <h2>
+                Device Pixel Ratio
+            </h2>
+     </header>
+     <p>
+        <b>DPR</b> --> también conocido como device pixel ratio; es la relacion que existe entre los píxeles<br> reales  que tiene el dispositivoy los píxeles que tenemos disponibles para "pintar" contenido   <br> DPR = Píxeles Reales <b>÷</b> Píxeles Disponibles <br>
+        ----------------------------------------------------------------------------------------------------------- <br>
+     </p>
+     	<h3>
+                Ejemplos de formularios con atributos; ancho y alto... no usar
+        </h3>
+     <h4> Houndoom Jpg <br>
+     <img src="/Proyecto1/contenido-embebido/assets/images/houndoom.jpg" width="300" ">
+     </h4>
+     	<h3>
+                Una imagen u otra en función del dispositivo
+        </h3>
+     <h4> Houndoom Jpg <br>
+     <img srcset="
+     /Proyecto1/contenido-embebido/assets/images/houndoom.webp
+     /Proyecto1/contenido-embebido/assets/images/houndoom.jpg,										  /Proyecto1/contenido-embebido/assets/images/houndoom2.jpg 2x" >
+     </h4> <hr>
+     	<h3>
+                Una imagen u otra en función del ancho
+        </h3>
+      <h4> Hydreigon png <br>
+     <picture>
+     	<source srcset="/Proyecto1/contenido-embebido/assets/images/hydreigon.webp,
+     					/Proyecto1/contenido-embebido/assets/images/hydreigon.png" media="(max-width:1200px)">
+     <img src="/Proyecto1/contenido-embebido/assets/images/hydreigon.png" alt="pokimon" width="300">
+     </picture>
+     </h4> <hr>  
+</body>
+</html>

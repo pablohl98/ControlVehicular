@@ -1,0 +1,82 @@
+* {
+	box-sizing:border-box;
+   }
+
+body {
+	/*background-image: url("imagenes/fondohtml.jpg");*/	
+	background-color: #888a89;
+}
+h1,h2,h3,h4,h5{
+	color: white;
+}
+header{
+	text-align: center;
+	color: white;
+}
+label{
+	font-size: large;
+}
+#registro{
+  margin-left: auto;
+  margin-right: auto;
+  width: 703px;
+  height: 860px;
+  border: 4.5px solid white;
+  border-radius: 15px;
+  box-sizing: border-box;
+  background-color: inherit;
+}
+#logotipo img{
+	height: 200px;
+	width: 600px;
+	margin-bottom: -10px;
+}
+h3{
+	color: white;
+}
+#header-estado{
+	text-align: center;
+	margin-top: -50px;
+	margin-bottom: -50px;
+	padding-bottom: 0px;
+}
+#textoestado{
+	font-size: 50px;
+}
+#llantasEstado{
+	font-size: 30px;
+	margin-left: 50px;
+	margin-top: -31px;
+	margin-bottom: 15px;
+}
+#textollantas, #textocristales,
+#textocarrocería,#textopintura,
+#textocaja, #textoobservaciones{
+	font-size: 25px;
+	margin-top: 5px;
+	margin-left: 231px;
+}
+#bienestado, #malestado{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+input[type=radio]{
+		border: 0px;
+    width: 20%;
+    height: 2em;  
+    accent-color: #119e53;
+}
+#Observaciones{
+	width: 650px;
+	height: 140px;
+	margin-left: 20px;
+	margin-top: -15px;
+	font-size: 25px;
+}
+#boton-enviar, #boton-regresa{
+	font-size: 35px;
+	width: 340px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -5px;
+}

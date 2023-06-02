@@ -1,0 +1,101 @@
+
+* {
+	box-sizing:border-box;
+   }
+
+body {
+	/*background-image: url("imagenes/fondohtml.jpg");*/	
+	background-color: #888a89;
+}
+body background-image {
+	opacity: 0.5;
+}
+header{
+	text-align: center;
+	color: white;
+}
+h3{
+	color: white;
+}
+#usuarios{
+	padding-right: 70px;
+	font-size: 30px;
+}
+#usuarioL{
+font-size: 30px;
+width: 400px;
+height: 40px;
+}
+#passL, #passI{
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+#passI{
+	width: 400px;
+	height: 40px;
+}
+#passL{
+	padding-right: 30px;
+}
+#textologin{
+	font-size: 50px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#inicio-sesion{
+  margin-left: auto;
+  margin-right: auto;
+  width: 703px;
+  height: 370px;
+  border: 4.5px solid white;
+  border-radius: 15px;
+  box-sizing: border-box;
+  background-color: inherit;
+}
+#caja1{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	padding-bottom: 0px;
+}
+#usuario{
+	padding-bottom: 50px;	
+}
+form{
+	text-align: left;
+}
+#usuarios, #passL{
+	color: white;
+	text-align: left;
+	padding-left: 20px;
+}
+
+#iniciar-sesion{
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #6565;
+	color: white;
+	font-size: 30px;
+}
+
+#logotipo{
+	text-align: center;
+}
+
+#logotipo img{
+	height: 200px;
+	width: 600px;
+	margin-bottom: -45px;
+}
+
+#registrarse-boton {
+	color: white;
+   display: inline-block;
+   width: 100%;
+   padding-right: 50px;
+   font-size: 25px;
+}
+
+
+}

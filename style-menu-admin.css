@@ -1,0 +1,71 @@
+* {
+	box-sizing:border-box;
+   }
+
+body {
+	/*background-image: url("imagenes/fondohtml.jpg");*/	
+	background-color: #888a89;
+}
+header{
+	text-align: center;
+	color: white;
+}
+#registro{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  width: 753px;
+  height: 380px;
+  border: 4.5px solid white;
+  border-radius: 15px;
+  box-sizing: border-box;
+  background-color: inherit;
+}
+#insert-poli{
+font-size: 35px;
+margin-left:15px;
+margin-top: 35px;
+margin-right: 20px;
+margin-bottom: 40px;
+width: 340px;
+}
+#delete-poli{
+ font-size: 35px;
+ width: 340px;
+ margin-bottom: 40px;
+ margin-right: 20px
+}
+#insert-patru{
+width: 340px;
+font-size: 35px;
+margin-left:15px;
+margin-right: 20px;	
+margin-bottom: 40px;
+}
+#delete-patru{
+width: 340px;
+font-size: 35px;	
+margin-bottom: 40px;
+}
+#update-poli{
+width: 340px;
+font-size: 35px;
+margin-left:15px;
+margin-right: 20px;	
+margin-bottom: 20px;
+}
+#update-patru{
+width: 340px;
+font-size: 35px;
+margin-bottom: 20px;2	
+}
+#cerrar-sesion{
+width: 340px;
+font-size: 35px;
+text-align: center;
+margin-left: 185px;
+margin-top: 17px;
+}
+#centrar{
+	align-content: center;
+}

@@ -1,0 +1,116 @@
+* {
+	box-sizing:border-box;
+   }
+
+body {
+	/*background-image: url("imagenes/fondohtml.jpg");*/	
+	background-color: #888a89;
+}
+header{
+	text-align: center;
+	color: white;
+}
+#logotipo img{
+	height: 200px;
+	width: 600px;
+	margin-bottom: -45px;
+}
+h2,h3{
+	color: white;
+}
+#todo{
+  margin-left: auto;
+  margin-right: auto;
+  width: 703px;
+  height: 434px;
+  border: 4.5px solid white;
+  border-radius: 15px;
+  box-sizing: border-box;
+  background-color: inherit;
+}
+#header-buscar{
+	text-align: center;
+	margin-top: -50px;
+	margin-bottom: -50px;
+	padding-bottom: 0px;
+}
+#textobuscar{
+	font-size: 50px;
+}
+#buscarI{
+	width: 400px;
+	height: 40px;
+	font-size: 30px;
+	margin-left: 60px;
+	margin-right: 36px;
+}
+#boton-buscar{
+	font-size: 35px;
+}
+#lid{
+	font-size: 30px;
+	color: white;
+	margin-left: 20px;
+	margin-right: 24px;
+}
+#id{
+	width: 400px;
+	height: 40px;
+	font-size: 30px;
+}
+#lid,#id{
+	margin-bottom: 15px;
+}
+#lnombre{
+	font-size: 30px;
+	color: white;
+	margin-left: 20px;
+	margin-right: 51px;
+}
+#nombre{
+	width: 400px;
+	height: 40px;
+	font-size: 30px;
+}
+#lnombre,#nombre{
+	margin-bottom: 15px;
+}
+#lmarca{
+	font-size: 30px;
+	color: white;
+	margin-left: 20px;
+	margin-right: 16px;
+}
+#marca{
+	width: 400px;
+	height: 40px;
+	font-size: 30px;
+}
+#lmarca,#marca{
+	margin-bottom: 15px;
+}
+#lmodelo{
+	font-size: 30px;
+	color: white;
+	margin-left: 20px;
+	margin-right: 4px;
+}
+#modelo{
+	width: 400px;
+	height: 40px;
+	font-size: 30px;
+}
+#lmodelo,#modelo{
+	margin-bottom: 15px;
+}
+#boton-actualizar{
+	margin-left: 20px;
+	font-size: 35px;
+	width: 140px;
+}
+#boton-regresa{
+	font-size: 35px;
+	width: 140px;
+	margin-left: 190px;
+	
+}

@@ -1,0 +1,133 @@
+* {
+	box-sizing:border-box;
+   }
+
+body {
+	/*background-image: url("imagenes/fondohtml.jpg");*/	
+	background-color: #888a89;
+}
+header{
+	text-align: center;
+	color: white;
+}
+label{
+	font-size: large;
+}
+h3{
+	color: white;
+}
+#logotipo img{
+	height: 200px;
+	width: 600px;
+	margin-bottom: -45px;
+}
+
+#header-registro{
+	text-align: center;
+	margin-top: -50px;
+	margin-bottom: -50px;
+	padding-bottom: 0px;
+}
+#textoregistro{
+	font-size: 50px;
+}
+#registro{
+  margin-left: auto;
+  margin-right: auto;
+  width: 738px;
+  height: 691px;
+  border: 4.5px solid white;
+  border-radius: 15px;
+  box-sizing: border-box;
+  background-color: inherit;
+}
+#nombreL{
+	margin-left: 10px;
+	margin-right: 140px;
+	color: white;
+}
+#impeL{
+	margin-left: 10px;
+	margin-right: 166px;
+	color: white;	
+}
+#nombreI,#apellidoPI,#apellidoMI,#impeI,#celuI{
+	width: 340px;
+	height: 40px;
+	font-size: 30px;
+}
+#nombreL,#rolesL,#distritoL,#boton-usuario,#apellidoPL,#apellidoML,#impeL,#usuarioL,#celuL{
+ font-size: 30px;
+}
+#impeL,#impeI{
+	margin-bottom: 35px;
+	margin-top: 15px;
+}
+#nombreL,#nombreI{
+	margin-bottom: 35px;
+}
+#apellidoPL{
+	margin-left: 10px;
+	margin-right: 36px;
+	color: white;	
+}
+#apellidoML{
+	margin-left: 10px;
+	margin-right: 26px;
+	color: white;	
+}
+#apellidoPL,#apellidoPI{
+	margin-bottom: 35px;
+}
+#apellidoML,#apellidoMI{
+	margin-bottom: 35px;
+}
+#usuarioL{
+	margin-left: 10px;
+	margin-right: 145px;
+	color: white;		
+}
+#usuarioI{
+	width: 340px;
+	height: 40px;
+	font-size: 30px;
+}
+#usuarioI,#usuarioL{
+	margin-bottom: 35px;
+}
+#distritoL{
+	margin-left: 10px;
+	margin-right: 148px;
+	color: white;
+}
+#distritoI{
+	font-size: 30px;
+	width: 340px;
+	height: 40px;
+}
+#distritoI,#distritoL{
+	margin-bottom: 35px;
+}
+#rolesL{
+	margin-left: 10px;
+	margin-right: 172px;
+	color: white;
+}
+#rolesI{
+	font-size: 30px;
+	width: 340px;
+	height: 40px;
+}
+#rolesL,#rolesI{
+	margin-bottom: 20px;
+}
+#enviar{
+	margin-left: 170px;
+}
+#boton-enviar{
+	font-size: 35px;
+	margin-left:30px;
+}
+#boton-regresa{
+	font-size: 35px;
+}
